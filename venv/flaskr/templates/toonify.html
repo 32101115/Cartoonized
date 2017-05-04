@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Toonify</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/main.css">
+    <script src="../static/resample.js"></script>
+
+ </head>
+ <style>
+
+
+</style>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Toonify</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1">
+  <div class="row">
+    <div class="col-sm-6 first-half">
+      <!-- <input class = "w" id="width" type="text" placeholder="type width"/>
+      <input class = "h" id="height" type="text" placeholder="type height" />
+      <input id="file" type="file"/>
+      <br /><span id="message"></span><br /> -->
+        <input type='file' id="fileInput" onchange="readURL(this);" />
+        <img id="img" text-center>
+    </div>
+    <div class="col-sm-6 second-half" > 
+      <div class="verticalLine">
+        <a href="#" id='readyImg' class="readyImg">
+          <button class="btn btn-primary">get Image
+            <!-- <a href="/my-link/">toonify</a> -->
+          </button>
+
+        </a>
+        <a href="#" id='toonify'>
+          <button class="btn btn-primary" data-loading-text="Loading...">toonify
+            <!-- <a href="/my-link/">toonify</a> -->
+          </button>
+        </a>
+        <a href="#" id='display'>
+          <button class="btn btn-primary" id="btn3" disabled>display
+            <!-- <a href="/my-link/">toonify</a> -->
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

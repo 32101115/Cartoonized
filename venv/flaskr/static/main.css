@@ -1,0 +1,51 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #1abc9c;
+    background-color: #1abc9c
+}
+p {
+  font-size: 16px;
+}
+.first-half {
+    padding-top: 50px;
+}
+
+.bg-1 { 
+    color: #ffffff;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.verticalLine {
+  border-left: thick solid #ffffff;
+  height: 650px
+}
+.w{
+  color:black;
+}
+.h{
+  color:black;
+}
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.btn {
+  margin-left:50px;
+  margin-top:40px;
+}
